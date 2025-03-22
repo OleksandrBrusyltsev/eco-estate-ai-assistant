@@ -1,10 +1,10 @@
-import torch
 from sentence_transformers import util
 
 from ..utils.const import Const
 from .detector import LanguageDetector
 from .embedder import Embedder
 from .storage import QAStorage
+import torch
 
 
 class EcoEstateAssistant:

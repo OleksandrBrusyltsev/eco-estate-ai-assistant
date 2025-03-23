@@ -1,5 +1,5 @@
 from src.eco_estate_ai import EcoEstateAssistant, Embedder, LanguageDetector, QAStorage
-from src.utils.const import Const
+from eco_estate_ai.const import Const
 
 
 def create_assistant(

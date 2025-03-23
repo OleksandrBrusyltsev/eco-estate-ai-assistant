@@ -1,6 +1,5 @@
-from src import Const
-
 from .assistant import EcoEstateAssistant
+from .const import Const
 from .detector import LanguageDetector
 from .embedder import Embedder
 from .storage import QAStorage

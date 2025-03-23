@@ -2,7 +2,7 @@ from functools import lru_cache
 
 import langdetect
 
-from src.utils.const import Const
+from .const import Const
 
 
 class LanguageDetector:

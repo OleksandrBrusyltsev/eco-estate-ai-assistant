@@ -30,13 +30,15 @@ exclude = "((.eggs | .git | .pytest_cache | build | dist | .env) | alembic)"
 
 
 [tool.ruff]
+src = ["src"]
 line-length = 88
 exclude = [".git", "__pycache__", ".mypy_cache", ".pytest_cache"]
 select = [
+
     "E",  # pycodestyle errors
     "W",  # pycodestyle warnings
     "F",  # pyflakes
-    # "I",  # isort
+     "I",  # isort
     "C",  # flake8-comprehensions
     "B",  # flake8-bugbear
 ]

@@ -1,6 +1,9 @@
-from src.eco_estate_ai import (EcoEstateAssistant, Embedder, LanguageDetector,
-                               QAStorage)
-from src.utils.const import Const
+from src import Const
+
+from .assistant import EcoEstateAssistant
+from .detector import LanguageDetector
+from .embedder import Embedder
+from .storage import QAStorage
 
 
 def create_assistant(

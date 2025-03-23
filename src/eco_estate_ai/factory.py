@@ -1,10 +1,10 @@
-from src.eco_estate_ai import EcoEstateAssistant, Embedder, LanguageDetector, QAStorage
+from src.eco_estate_ai import (EcoEstateAssistant, Embedder, LanguageDetector,
+                               QAStorage)
 from src.utils.const import Const
 
 
 def create_assistant(
-    qa_path: str = Const.QA_PAIRS_PATH,
-    model_path: str = Const.MODEL_PATH
+    qa_path: str = Const.QA_PAIRS_PATH, model_path: str = Const.MODEL_PATH
 ) -> EcoEstateAssistant:
     _storage = QAStorage(qa_path)
     _embedder = Embedder(model_path)

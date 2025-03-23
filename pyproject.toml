@@ -11,6 +11,11 @@ dependencies = [
     "langdetect>=1.0.9",
 ]
 
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
 
 [build-system]
 requires = ["setuptools>=42", "wheel", "sentence-transformers"]

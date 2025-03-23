@@ -1,7 +1,7 @@
 [project]
 name = "eco-estate-ai-assistant"
 version = "0.1.0"
-authors = ["Oleksandr Brusyltsev <brusiltsev1@gmail.com>"]
+authors = [{ name = "Oleksandr Brusyltsev", email = "brusiltsev1@gmail.com" }]
 description = "eco-estate-ai-assistant"
 readme = "README.md"
 requires-python = ">=3.11"

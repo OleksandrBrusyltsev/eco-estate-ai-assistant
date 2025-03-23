@@ -1,5 +1,5 @@
 [project]
-name = "eco-estate-ai-assistant"
+name = "eco_estate_ai_assistant"
 version = "0.1.0"
 authors = [{ name = "Oleksandr Brusyltsev", email = "brusiltsev1@gmail.com" }]
 description = "eco-estate-ai-assistant"
